@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9435DCC7262FB3AC00F5464E /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9435DCC6262FB3AC00F5464E /* Cell.swift */; };
 		946A04DC262F29DD00BBCECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A04DB262F29DD00BBCECA /* AppDelegate.swift */; };
 		946A04DE262F29DD00BBCECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A04DD262F29DD00BBCECA /* SceneDelegate.swift */; };
-		946A04E0262F29DD00BBCECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A04DF262F29DD00BBCECA /* ViewController.swift */; };
-		946A04E3262F29DD00BBCECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946A04E1262F29DD00BBCECA /* Main.storyboard */; };
 		946A04E5262F29DE00BBCECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946A04E4262F29DE00BBCECA /* Assets.xcassets */; };
 		946A04E8262F29DE00BBCECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946A04E6262F29DE00BBCECA /* LaunchScreen.storyboard */; };
 		946A04F3262F29DE00BBCECA /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A04F2262F29DE00BBCECA /* GameOfLifeTests.swift */; };
 		946A04FE262F29DE00BBCECA /* GameOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A04FD262F29DE00BBCECA /* GameOfLifeUITests.swift */; };
+		946A0528262F829E00BBCECA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A0527262F829E00BBCECA /* GameViewController.swift */; };
+		946A052D262F82B900BBCECA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A052C262F82B900BBCECA /* GridView.swift */; };
+		9476D59E262F87540016C202 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D59D262F87540016C202 /* Grid.swift */; };
+		9476D5A3262F96D10016C202 /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D5A2262F96D10016C202 /* GameTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9435DCC6262FB3AC00F5464E /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		946A04D8262F29DD00BBCECA /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946A04DB262F29DD00BBCECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946A04DD262F29DD00BBCECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		946A04DF262F29DD00BBCECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		946A04E2262F29DD00BBCECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946A04E4262F29DE00BBCECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946A04E7262F29DE00BBCECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946A04E9262F29DE00BBCECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		946A04F9262F29DE00BBCECA /* GameOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		946A04FD262F29DE00BBCECA /* GameOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeUITests.swift; sourceTree = "<group>"; };
 		946A04FF262F29DE00BBCECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946A0527262F829E00BBCECA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		946A052C262F82B900BBCECA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9476D59D262F87540016C202 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		9476D5A2262F96D10016C202 /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9435DCC5262FB3A200F5464E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9435DCC6262FB3AC00F5464E /* Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		946A04CF262F29DD00BBCECA = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +113,12 @@
 		946A04DA262F29DD00BBCECA /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				946A04DB262F29DD00BBCECA /* AppDelegate.swift */,
-				946A04DD262F29DD00BBCECA /* SceneDelegate.swift */,
-				946A04DF262F29DD00BBCECA /* ViewController.swift */,
-				946A04E1262F29DD00BBCECA /* Main.storyboard */,
-				946A04E4262F29DE00BBCECA /* Assets.xcassets */,
-				946A04E6262F29DE00BBCECA /* LaunchScreen.storyboard */,
-				946A04E9262F29DE00BBCECA /* Info.plist */,
+				9435DCC5262FB3A200F5464E /* Cell */,
+				9476D5AA262F9BD70016C202 /* Resources */,
+				9476D5A9262F9BC10016C202 /* LaunchFiles */,
+				9476D5A8262F9BB20016C202 /* Timer */,
+				9476D5A7262F9BA70016C202 /* Grid */,
+				946A0527262F829E00BBCECA /* GameViewController.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -126,6 +139,42 @@
 				946A04FF262F29DE00BBCECA /* Info.plist */,
 			);
 			path = GameOfLifeUITests;
+			sourceTree = "<group>";
+		};
+		9476D5A7262F9BA70016C202 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				9476D59D262F87540016C202 /* Grid.swift */,
+				946A052C262F82B900BBCECA /* GridView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		9476D5A8262F9BB20016C202 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				9476D5A2262F96D10016C202 /* GameTimer.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		9476D5A9262F9BC10016C202 /* LaunchFiles */ = {
+			isa = PBXGroup;
+			children = (
+				946A04DD262F29DD00BBCECA /* SceneDelegate.swift */,
+				946A04DB262F29DD00BBCECA /* AppDelegate.swift */,
+			);
+			path = LaunchFiles;
+			sourceTree = "<group>";
+		};
+		9476D5AA262F9BD70016C202 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				946A04E9262F29DE00BBCECA /* Info.plist */,
+				946A04E6262F29DE00BBCECA /* LaunchScreen.storyboard */,
+				946A04E4262F29DE00BBCECA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +282,6 @@
 			files = (
 				946A04E8262F29DE00BBCECA /* LaunchScreen.storyboard in Resources */,
 				946A04E5262F29DE00BBCECA /* Assets.xcassets in Resources */,
-				946A04E3262F29DD00BBCECA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946A04E0262F29DD00BBCECA /* ViewController.swift in Sources */,
 				946A04DC262F29DD00BBCECA /* AppDelegate.swift in Sources */,
+				946A0528262F829E00BBCECA /* GameViewController.swift in Sources */,
+				9435DCC7262FB3AC00F5464E /* Cell.swift in Sources */,
+				946A052D262F82B900BBCECA /* GridView.swift in Sources */,
+				9476D59E262F87540016C202 /* Grid.swift in Sources */,
 				946A04DE262F29DD00BBCECA /* SceneDelegate.swift in Sources */,
+				9476D5A3262F96D10016C202 /* GameTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		946A04E1262F29DD00BBCECA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				946A04E2262F29DD00BBCECA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		946A04E6262F29DE00BBCECA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,7 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44M78977LD;
-				INFOPLIST_FILE = GameOfLife/Info.plist;
+				INFOPLIST_FILE = GameOfLife/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44M78977LD;
-				INFOPLIST_FILE = GameOfLife/Info.plist;
+				INFOPLIST_FILE = GameOfLife/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
